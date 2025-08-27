@@ -66,6 +66,3 @@ Then, inside the handler, you check which child actually triggered the event.
    ⭐preventDefault() :Prevents the default browser behavior for an event and browser not loading .
 
 ⭐stopPropagation():Stops the event from bubbling up (or capturing down) the DOM.
-
-- 📂 **GitHub Repository**
-- 🌐 **Live Link**

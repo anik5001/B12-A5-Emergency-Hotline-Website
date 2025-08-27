@@ -31,7 +31,7 @@ document
         var cardNode = document.createElement("div");
         const callHistoryParent = document.getElementById("card-section");
         cardNode.innerHTML = `
-              <div class="flex justify-between items-center bg-gray-50 p-1 py-4 rounded-lg mt-3">
+              <div class="flex justify-between items-center bg-gray-100 px-2 py-4 rounded-lg mt-3">
           <div>
             <h1 class="font-semibold">${title}</h1>
             <p>${hotNumber}</p>
