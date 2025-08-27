@@ -53,6 +53,18 @@ document
       );
       copyValueTotal = copyValueTotal + 1;
       document.getElementById("copy-count").innerText = copyValueTotal;
+
+      // Copy to clipboard
+
+      const hotNumber = targetData.parentNode.parentNode.children[3].innerText;
+      navigator.clipboard
+        .writeText(hotNumber)
+        .then(() => {
+          alert("Number has been copied " + hotNumber);
+        })
+        .catch((err) => {
+          console.error("Failed to copy: ", err);
+        });
     }
   });
 
